@@ -1,0 +1,42 @@
+<!--pages/competiton/competiton.wxml-->
+<!--标题-->
+<view class="tittle">竞赛</view>
+
+<!--搜索框-->
+<view class="search">
+ <image src="/images/common/sou1.png" class="pic-sou1"></image>
+ <input placeholder="搜索" />
+ <image src="/images/common/sou2.png" class="pic-sou2"></image>
+</view>
+
+<!--比赛资讯-->
+<view class="zxText">比赛资讯</view>
+<view class="v1">
+<image src="/images/competition/comp1.png" class="pic-comp1"></image>
+</view>
+<view class="v2">
+<view style="font-size: 24rpx;">
+Donec elementum dui semper, pretium dui quis, pretium nisl. Nun
+</view>
+<view class="v3">
+<view style="font-size: 14rpx;">11 septemvber 2016  | 
+<text style='color:#1a54e7;;text-decoration:underline;'>John Doe copy 4 </text>
+</view>
+</view>
+</view>
+
+<!--比赛练习-->
+<view class="lxText">比赛练习</view>
+<view class="v1">
+<image src="/images/competition/comp2.png" class="pic-comp1"></image>
+</view>
+<view class="v2">
+<view style="font-size: 24rpx;">
+  Maecenas quis lobortis nunc. Nullam sit amet augue vel odio con copy
+</view>
+<view class="v3">
+<view style="font-size: 14rpx;">14 septemvber 2016  |
+<text style='color:#1a54e7;;text-decoration:underline;'>John Doe copy </text>
+</view>
+</view>
+</view>

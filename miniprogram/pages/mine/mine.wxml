@@ -1,0 +1,107 @@
+<!--pages/mine/mine.wxml-->
+
+<!--个人中心-->
+<view class="top">
+<image src="/images/user/yonghu/touxiang.png" class="touxiang"></image>
+<view class="righttext">
+<view class="bianji" style="color: #b1c9ff; font-size: 32rpx;">编辑</view>
+<view class="name" style="color: rgb(255, 255, 255); font-size: 36rpx;letter-spacing: 3rpx;">李隆基</view>
+<view class="t1" style="color: rgb(255, 255, 255);font-size: 24rpx;letter-spacing: 2rpx;">编程爱好者 | 北京工业大学</view>
+<view class="t2" style="color: rgb(255, 255, 255);font-size: 24rpx;letter-spacing: 2rpx;">20岁 | 北京</view>
+</view>
+</view>
+
+<!--社区兴趣群-->
+<view class="v1">
+<view class="line1">
+<view class="part" style="color: rgb(255, 255, 255); letter-spacing: 3rpx; font-size: 28rpx;">社区兴趣群</view>
+<view class="choice1" style="color: #1304d9;letter-spacing: 3rpx; font-size: 24rpx;">最新</view>
+<view class="choice" style="color:#4f4f4f;letter-spacing: 3rpx; font-size: 24rpx;">最热</view>
+<view class="choice" style="color:#4f4f4f;letter-spacing: 3rpx; font-size: 24rpx;">关注</view>
+<view class="choice" style="color:#4f4f4f;letter-spacing: 3rpx; font-size: 24rpx;">发帖</view>
+<view class="choice" style="color:#4f4f4f;letter-spacing: 3rpx; font-size: 24rpx;">建立</view>
+</view>
+<view class="line2">
+<image class="pic1" src="/images/user/yonghu/user1.png"></image>
+<view class="right-text">
+<view class="top-text">
+<view class="left" style="font-size: 28rpx;color: #000000; letter-spacing: 2rpx;">项目运行之后不显示Http Response的内容</view>
+<view class="right">
+<view class="r1" style="text-align: right;color: #202020;font-size: 22rpx;">浏览2546</view>
+<view class="r2" style="text-align: right;color: #202020;font-size: 22rpx;">评论127</view>
+</view>
+</view>
+<view class="bottom-text">
+<view class="t1" style="font-size: 26rpx;color: #686868;letter-spacing: 2rpx;text-align: right;">Jbhusn25462</view>
+<view class="t2" style="font-size: 26rpx;color: #1304d9;letter-spacing: 2rpx;text-align: right;">一天前</view>
+</view>
+</view>
+</view>
+<view class="line3">
+<image class="pic1" src="/images/user/yonghu/user2.png"></image>
+<view class="right-text">
+<view class="top-text">
+<view class="left" style="font-size: 28rpx;color: #000000; letter-spacing: 2rpx;">find_packages eigen失败</view>
+<view class="right">
+<view class="r1" style="text-align: right;color: #202020;font-size: 22rpx;">浏览5966</view>
+<view class="r2" style="text-align: right;color: #202020;font-size: 22rpx;">评论93</view>
+</view>
+</view>
+<view class="bottom-text">
+<view class="t1" style="font-size: 26rpx;color: #686868;letter-spacing: 2rpx;text-align: right;">siu-88</view>
+<view class="t2" style="font-size: 26rpx;color: #1304d9;letter-spacing: 2rpx;text-align: right;">一天前</view>
+</view>
+</view>
+</view>
+<image class="more"src="/images/common/more.png"></image>
+</view>
+
+<!--高校交流群-->
+<view class="v2">
+<view class="line1">
+<view class="part" style="color: rgb(255, 255, 255); letter-spacing: 3rpx; font-size: 28rpx;">高校交流群</view>
+<view class="choice1" style="color: #1304d9;letter-spacing: 3rpx; font-size: 24rpx;">最新</view>
+<view class="choice" style="color:#4f4f4f;letter-spacing: 3rpx; font-size: 24rpx;">最热</view>
+<view class="choice" style="color:#4f4f4f;letter-spacing: 3rpx; font-size: 24rpx;">关注</view>
+<view class="choice" style="color:#4f4f4f;letter-spacing: 3rpx; font-size: 24rpx;">发帖</view>
+<view class="choice" style="color:#4f4f4f;letter-spacing: 3rpx; font-size: 24rpx;">建立</view>
+</view>
+<view class="line2">
+<image class="pic1" src="/images/user/yonghu/user3.png"></image>
+<view class="right-text">
+<view class="top-text">
+<view class="left" style="font-size: 28rpx;color: #000000; letter-spacing: 2rpx;">实验环境无法输入数字问题【解决办法】</view>
+<view class="right">
+<view class="r1" style="text-align: right;color: #202020;font-size: 22rpx;">浏览2546</view>
+<view class="r2" style="text-align: right;color: #202020;font-size: 22rpx;">评论127</view>
+</view>
+</view>
+<view class="mid" style="text-align: right;color: #8c8c8c;font-size: 22rpx;">北京工业大学</view>
+<view class="bottom-text">
+<view class="t1" style="font-size: 26rpx;color: #686868;letter-spacing: 2rpx;text-align: right;">xsnajuhun</view>
+<view class="t2" style="font-size: 26rpx;color: #1304d9;letter-spacing: 2rpx;text-align: right;">一天前</view>
+</view>
+</view>
+</view>
+<view class="line3">
+<image class="pic1" src="/images/user/yonghu/user1.png"></image>
+<view class="right-text">
+<view class="top-text">
+<view class="left" style="font-size: 28rpx;color: #000000; letter-spacing: 2rpx;">【轻实验】在终端查看Markdown</view>
+<view class="right">
+<view class="r1" style="text-align: right;color: #202020;font-size: 22rpx;">浏览5966</view>
+<view class="r2" style="text-align: right;color: #202020;font-size: 22rpx;">评论93</view>
+</view>
+</view>
+<view class="mid" style="text-align: right;color: #8c8c8c;font-size: 22rpx;">北京交通大学</view>
+<view class="bottom-text">
+<view class="t1" style="font-size: 26rpx;color: #686868;letter-spacing: 2rpx;text-align: right;">用户142225462449</view>
+<view class="t2" style="font-size: 26rpx;color: #1304d9;letter-spacing: 2rpx;text-align: right;">一天前</view>
+</view>
+</view>
+</view>
+<image class="more"src="/images/common/more.png"></image>
+</view>
+
+<view class="liubai"></view>
+

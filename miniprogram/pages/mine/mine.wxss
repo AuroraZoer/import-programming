@@ -1,0 +1,251 @@
+/* pages/mine/mine.wxss */
+.top{
+  display: flex;
+  height: 230rpx;
+  background-color: #2b6df5;
+}
+.top .touxiang{
+  margin: 40rpx 40rpx 40rpx 40rpx;
+  width: 150rpx;
+  height: 150rpx;
+}
+.top .righttext .bianji{
+  position: absolute;
+  margin-left: 420rpx;
+  margin-top: 36rpx;
+}
+.top .righttext .name{
+  margin-top: 36rpx;
+}
+.top .righttext .t1{
+  margin-top: 12rpx;
+}
+.top .righttext .t2{
+  margin-top: 12rpx;
+}
+.v1{
+  display: flex;
+  flex-direction: column;
+}
+.v1 .line1{
+  display: flex;
+}
+.v1 .line1 .part{
+  padding: 15rpx;
+  margin-top: 30rpx;
+  margin-left: 40rpx;
+  background-color: #135ae9;
+}
+.v1 .line1 .choice1{
+  margin-top: 64rpx;
+  margin-left: 80rpx;
+}
+.v1 .line1 .choice{
+  margin-top: 64rpx;
+  margin-left: 10rpx;
+}
+.v1 .line2{
+  display: flex;
+  margin: 20rpx 40rpx 20rpx 40rpx;
+  background-color: #ececec;
+  height: 200rpx;
+}
+.v1 .line2 .pic1{
+  padding: 30rpx;
+  height: 120rpx;
+  width: 120rpx;
+}
+.v1 .line2 .right-text{
+  display: flex;
+  flex-direction: column;
+}
+.v1 .line2 .right-text .top-text{
+  display: flex;
+  margin-top: 50rpx;
+}
+.v1 .line2 .right-text .top-text .left{
+  width: 345rpx;
+}
+.v1 .line2 .right-text .top-text .right{
+  width: 106rpx;
+}
+.v1 .line2 .right-text .top-text .right .r1{
+  margin-top: 6rpx;
+}
+.v1 .line2 .right-text .top-text .right .r2{
+  margin-top: 6rpx;
+}
+.v1 .line2 .right-text .bottom-text{
+  display: flex;
+  margin-top: 25rpx;
+}
+.v1 .line2 .right-text .bottom-text .t1{
+  width: 320rpx;
+}
+.v1 .line2 .right-text .bottom-text .t2{
+  width: 126rpx;
+}
+.v1 .line3{
+  display: flex;
+  margin: 10rpx 40rpx 25rpx 40rpx;
+  background-color: #ececec;
+  height: 200rpx;
+}
+.v1 .line3 .pic1{
+  padding: 30rpx;
+  height: 120rpx;
+  width: 120rpx;
+}
+.v1 .line3 .right-text{
+  display: flex;
+  flex-direction: column;
+}
+.v1 .line3 .right-text .top-text{
+  display: flex;
+  margin-top: 50rpx;
+}
+.v1 .line3 .right-text .top-text .left{
+  width: 345rpx;
+}
+.v1 .line3 .right-text .top-text .right{
+  width: 106rpx;
+}
+.v1 .line3 .right-text .top-text .right .r1{
+  margin-top: 6rpx;
+}
+.v1 .line3 .right-text .top-text .right .r2{
+  margin-top: 6rpx;
+}
+.v1 .line3 .right-text .bottom-text{
+  display: flex;
+  margin-top: 25rpx;
+}
+.v1 .line3 .right-text .bottom-text .t1{
+  width: 320rpx;
+}
+.v1 .line3 .right-text .bottom-text .t2{
+  width: 126rpx;
+}
+.v1 .more{
+  margin-left: 550rpx;
+  width: 150rpx;
+  height: 28rpx;
+}
+.v2{
+  display: flex;
+  flex-direction: column;
+}
+.v2 .line1{
+  display: flex;
+}
+.v2 .line1 .part{
+  padding: 15rpx;
+  margin-top: 30rpx;
+  margin-left: 40rpx;
+  background-color: #135ae9;
+}
+.v2 .line1 .choice1{
+  margin-top: 64rpx;
+  margin-left: 80rpx;
+}
+.v2 .line1 .choice{
+  margin-top: 64rpx;
+  margin-left: 10rpx;
+}
+.v2 .line2{
+  display: flex;
+  margin: 20rpx 40rpx 20rpx 40rpx;
+  background-color: #ececec;
+  height: 200rpx;
+}
+.v2 .line2 .pic1{
+  padding: 30rpx;
+  height: 120rpx;
+  width: 120rpx;
+}
+.v2 .line2 .right-text{
+  display: flex;
+  flex-direction: column;
+}
+.v2 .line2 .right-text .top-text{
+  display: flex;
+  margin-top: 40rpx;
+}
+.v2 .line2 .right-text .top-text .left{
+  width: 345rpx;
+}
+.v2 .line2 .right-text .top-text .right{
+  width: 106rpx;
+}
+.v2 .line2 .right-text .top-text .right .r1{
+  margin-top: 6rpx;
+}
+.v2 .line2 .right-text .top-text .right .r2{
+  margin-top: 6rpx;
+}
+.v2 .line2 .right-text .mid{
+  margin-top: 6rpx;
+}
+.v2 .line2 .right-text .bottom-text{
+  display: flex;
+  margin-top: 10rpx;
+}
+.v2 .line2 .right-text .bottom-text .t1{
+  width: 320rpx;
+}
+.v2 .line2 .right-text .bottom-text .t2{
+  width: 126rpx;
+}
+.v2 .line3{
+  display: flex;
+  margin: 10rpx 40rpx 25rpx 40rpx;
+  background-color: #ececec;
+  height: 200rpx;
+}
+.v2 .line3 .pic1{
+  padding: 30rpx;
+  height: 120rpx;
+  width: 120rpx;
+}
+.v2 .line3 .right-text{
+  display: flex;
+  flex-direction: column;
+}
+.v2 .line3 .right-text .top-text{
+  display: flex;
+  margin-top: 40rpx;
+}
+.v2 .line3 .right-text .top-text .left{
+  width: 345rpx;
+}
+.v2 .line3 .right-text .top-text .right{
+  width: 106rpx;
+}
+.v2 .line3 .right-text .top-text .right .r1{
+  margin-top: 6rpx;
+}
+.v2 .line3 .right-text .top-text .right .r2{
+  margin-top: 6rpx;
+}
+.v2 .line3 .right-text .mid{
+  margin-top: 6rpx;
+}
+.v2 .line3 .right-text .bottom-text{
+  display: flex;
+  margin-top: 10rpx;
+}
+.v2 .line3 .right-text .bottom-text .t1{
+  width: 320rpx;
+}
+.v2 .line3 .right-text .bottom-text .t2{
+  width: 126rpx;
+}
+.v2 .more{
+  margin-left: 550rpx;
+  width: 150rpx;
+  height: 28rpx;
+}
+
+.liubai{
+  height: 50rpx;
+}

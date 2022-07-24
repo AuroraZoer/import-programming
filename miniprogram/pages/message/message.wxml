@@ -1,0 +1,32 @@
+<!--pages/message/message.wxml-->
+<!--标题-->
+<view class="tittle">新闻资讯</view>
+
+<!--搜索框-->
+<view class="search">
+ <image src="/images/common/sou1.png" class="pic-sou1"></image>
+ <input placeholder="搜索" />
+ <image src="/images/common/sou2.png" class="pic-sou2"></image>
+</view>
+
+<!--项目合作-->
+<view class="v1">
+<view class="T1"  style="font-size: 40rpx; color: #1304d9; letter-spacing: 5rpx;">项目合作</view>
+<view class="T2"  style="font-size: 32rpx;color: #555555;text-decoration:underline;letter-spacing: 3rpx;">关于数据分析项目合作</view>
+<view class="T2"  style="font-size: 32rpx;color: #555555;text-decoration:underline;letter-spacing: 3rpx;">关于大数据分析项目合作</view>
+<view class="T2"  style="font-size: 32rpx;color: #555555;text-decoration:underline;letter-spacing: 3rpx;">关于人工智能项目合作</view>
+</view>
+<view class="more">
+<image src="/images/common/more.png" class="pic-more"></image>
+</view>
+
+<!--技术共享-->
+<view class="v1">
+<view class="T1"  style="font-size: 40rpx; color: #1304d9; letter-spacing: 5rpx;">技术共享</view>
+<view class="T2"  style="font-size: 32rpx;color: #555555;text-decoration:underline;letter-spacing: 3rpx;">关于数据分析技术共享</view>
+<view class="T2"  style="font-size: 32rpx;color: #555555;text-decoration:underline;letter-spacing: 3rpx;">关于大数据分析技术共享</view>
+<view class="T2"  style="font-size: 32rpx;color: #555555;text-decoration:underline;letter-spacing: 3rpx;">关于人工智能技术共享</view>
+</view>
+<view class="more">
+<image src="/images/common/more.png" class="pic-more"></image>
+</view>

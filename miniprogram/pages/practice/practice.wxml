@@ -1,0 +1,45 @@
+<!--pages/practice/practice.wxml-->
+<!--标题-->
+<view class="tittle">练习</view>
+
+<!--搜索框-->
+<view class="search">
+ <image src="/images/common/sou1.png" class="pic-sou1"></image>
+ <input placeholder="搜索" />
+ <image src="/images/common/sou2.png" class="pic-sou2"></image>
+</view>
+
+
+<!--大咖分享课-->
+<view class="v1">
+  <view class="dkText">大咖分享课</view>
+  <image src="/images/practice/practice0.png" class="pic-practice0"></image>
+  <view class="pic-text" style="font-size: 29rpx;letter-spacing: 2rpx; color: azure;">黑马程序员Python学习经验分享</view>
+  <view class="text1" style="font-size: 30rpx;letter-spacing: 2rpx;">大咖经验分享</view>
+  <view class="text0" style="font-size: 24rpx;letter-spacing: 2rpx; color: #535bfe;">759人已报名</view>
+  <view class="text2" style="font-size: 24rpx;letter-spacing: 2rpx;color: #adb3bf;">1月12号开课</view>
+  <view class="star">
+  <image src="/images/common/star.png"></image>
+  <text style="font-size: 20rpx;letter-spacing: 2rpx;color: #adb3bf;">4,9 (268)</text>
+</view>
+</view>
+
+<!--练习题库-->
+<view class="v2">
+  <text class="lxText" style="font-size: 35rpx;letter-spacing: 2rpx;">练习题库</text>
+  <image src="/images/common/more.png"></image>
+</view>
+<!--滑动-->
+<scroll-view class="huadong" scroll-x="{{true}}" enhanced="{{true}}" show-scrollbar="{{false}}" enable-flex="{{true}}">
+  <view class="p1">
+  <image src="/images/practice/practice1.png" class="pic"></image>
+  </view>
+
+  <view class="p2">
+    <image src="/images/practice/practice1.png" class="pic"></image>
+  </view>
+
+  <view class="p3">
+    <image src="/images/practice/practice1.png" class="pic"></image>
+  </view>
+</scroll-view>

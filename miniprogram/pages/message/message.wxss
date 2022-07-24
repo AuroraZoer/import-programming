@@ -1,0 +1,57 @@
+/* pages/message/message.wxss */
+.tittle{
+  position: relative;
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  font-size: 65rpx;
+  letter-spacing: 5rpx;
+}
+.search{
+  position: relative;
+  display: flex;
+  margin: 25rpx 30rpx 10rpx 30rpx;
+  height: 90rpx;
+  border-radius: 50rpx;
+  box-shadow: 2rpx 2rpx 2rpx 2rpx rgb(199, 196, 196);
+}
+.search .pic-sou1{
+  margin-top: 26rpx;
+  margin-left: 40rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.search input{
+  margin-top: 25rpx;
+  margin-left: 30rpx;
+  font-size: 26rpx;
+  width: 80%;
+}
+.search .pic-sou2{
+  margin-top: 25rpx;
+  margin-right: 40rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.v1{
+  position: absolute;
+  margin-top: 50rpx;
+  margin-left: 70rpx;
+  height: 400rpx;
+  width: 600rpx;
+  box-shadow: 5rpx 5rpx 5rpx 5rpx rgb(199, 196, 196);
+}
+.v1 .T1{
+  position: relative;
+  margin-top: 50rpx;
+  margin-left: 50rpx;
+}
+.v1 .T2{
+  margin-top: 30rpx;
+  margin-left: 50rpx;
+}
+.more .pic-more{
+  margin-top: 480rpx;
+  margin-left: 520rpx;
+  width: 150rpx;
+  height: 30rpx;
+}

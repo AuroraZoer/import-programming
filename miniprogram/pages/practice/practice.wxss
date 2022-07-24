@@ -1,0 +1,113 @@
+/* pages/practice/practice.wxss */
+.tittle{
+  position: relative;
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  font-size: 65rpx;
+  letter-spacing: 5rpx;
+}
+.search{
+  position: relative;
+  display: flex;
+  margin: 25rpx 30rpx 10rpx 30rpx;
+  height: 90rpx;
+  border-radius: 50rpx;
+  box-shadow: 2rpx 2rpx 2rpx 2rpx rgb(199, 196, 196);
+}
+.search .pic-sou1{
+  margin-top: 26rpx;
+  margin-left: 40rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.search input{
+  margin-top: 25rpx;
+  margin-left: 30rpx;
+  font-size: 26rpx;
+  width: 80%;
+}
+.search .pic-sou2{
+  margin-top: 25rpx;
+  margin-right: 40rpx;
+  width: 40rpx;
+  height: 40rpx;
+}.v1{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.v1 .dkText{
+  margin-top: 30rpx;
+  margin-left: 50rpx;
+}
+.v1 .pic-practice0{
+  position: absolute;
+  width: 100%;
+  margin-top: 75rpx;
+  height: 480rpx;
+}
+.v1 .pic-text{
+  display: flex;
+  justify-content: center;
+  z-index: 99;
+  margin-top: 150rpx;
+}
+.v1 .text1{
+  z-index: 99;
+  margin-top: 125rpx;
+  margin-left: 54rpx;
+}
+.v1 .text0{
+  position: absolute;
+  z-index: 99;
+  margin-top: 390rpx;
+  margin-left: 520rpx;
+}
+.v1 .text2{
+  z-index: 99;
+  margin-top: 16rpx;
+  margin-left: 50rpx;
+}
+
+.v1 .star{
+  z-index: 99;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16rpx;
+  margin-left: 50rpx;
+}
+.v1 .star image{
+  width: 146rpx;
+  height: 24rpx;
+}
+.v2{
+  margin-top: 80rpx;
+  margin-left: 50rpx;
+}
+.v2  image{
+  margin-left: 380rpx;
+  width: 150rpx;
+  height: 30rpx;
+}
+.huadong{
+  height: 500rpx;
+  display: flex;
+  margin-top: 15rpx;
+}
+.huadong{
+  display: flex;
+  height: 400rpx;
+}
+.huadong .p1 .pic{
+  width: 480rpx;
+  height: 400rpx;
+}
+.huadong .p2 .pic{
+  width: 480rpx;
+  height: 400rpx;
+}
+.huadong .p3 .pic{
+  width: 480rpx;
+  height: 400rpx;
+}

@@ -1,0 +1,87 @@
+/* pages/user/user.wxss */
+.v0{
+  margin-top: 150rpx;
+  margin-left: 120rpx;
+}
+.v1{
+  display: flex;
+  margin-top: 20rpx;
+  margin-left: 120rpx;
+}
+.v2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 200rpx;
+}
+.v2 .phone{
+  margin-left: 120rpx;
+  display: flex;
+  justify-content: center;
+  width:500rpx ;
+  height: 70rpx ;
+  border-bottom: 3rpx solid rgb(140, 140, 140);
+}
+.v2 .phone .num{
+  margin-top: 5rpx;
+  margin-right: 30rpx; 
+}
+.v2 .pass{
+  margin-top: 30rpx;
+  margin-left: 120rpx;
+  display: flex;
+  width:500rpx ;
+  height: 70rpx ;
+  border-bottom: 3rpx solid rgb(140, 140, 140);
+}
+.v2 .pass .yzm{
+  display: flex;
+  padding: 7rpx;
+  justify-content: center;
+  margin-bottom: 20rpx;
+  border-radius: 50rpx;
+  width: 300rpx;
+  background-color: rgb(255, 255, 255);
+  border-color: #3b73f6;
+  border: 1rpx solid;
+}
+.denglu{
+  margin-top: 200rpx;
+}
+.denglu button{
+  padding: 20rpx;
+  line-height: 35rpx;
+  font-size: 30rpx;
+  width: 500rpx;
+  height: 80rpx;
+  font-size: 36rpx;
+  letter-spacing: 6rpx;
+  border-radius: 50rpx;
+  background: linear-gradient(to right, #acc0ee, #3b73f6)
+}
+.v3{
+  padding-top: 60rpx;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 60rpx;
+}
+.v3 .line{
+  margin-top: 18rpx;
+  margin-left: 5rpx;
+  width: 160rpx;
+  height: 3rpx;
+  background-color:darkgrey;
+}
+.v3 .lText{
+  font-size: 25rpx;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+.icon image{
+  width: 70rpx;
+  height: 60rpx;
+}

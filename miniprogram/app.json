@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/course/course",
+    "pages/practice/practice",
+    "pages/competiton/competiton",
+    "pages/user/user",
+    "pages/message/message",
+    "pages/mine/mine"
+  ],
+  "tabBar": {
+    "selectedColor": "#1a54e7",
+    "list": [{
+      "pagePath": "pages/course/course",
+      "text": "课程",
+      "iconPath": "/images/tab/course.png",
+      "selectedIconPath": "/images/tab/course-active.png"
+    },
+    {
+      "pagePath": "pages/practice/practice",
+      "text": "练习",
+      "iconPath": "/images/tab/practice.png",
+      "selectedIconPath": "/images/tab/practice-active.png"
+    },{
+      "pagePath": "pages/competiton/competiton",
+      "text": "竞赛",
+      "iconPath": "/images/tab/competition.png",
+      "selectedIconPath": "/images/tab/competition-active.png"
+    },{
+      "pagePath": "pages/message/message",
+      "text": "咨询",
+      "iconPath": "/images/tab/message.png",
+      "selectedIconPath": "/images/tab/message-active.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "/images/tab/user.png",
+      "selectedIconPath": "/images/tab/user-active.png"
+    }]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "import programming",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
